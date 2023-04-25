@@ -1,4 +1,4 @@
-package com.tenco.openai.config;
+package com.tenco.openai.components;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.HttpEntity;
@@ -21,7 +21,7 @@ public class Gpt3ApiCaller {
     
 	public ChatGptResponse callGpt3Api(String reqData) {
 		String apiUrl = "https://api.openai.com/v1/chat/completions";
-		String apiKey = "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";
+		String apiKey = "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";
 
 		HttpHeaders headers = new HttpHeaders();
 		headers.setContentType(MediaType.APPLICATION_JSON);

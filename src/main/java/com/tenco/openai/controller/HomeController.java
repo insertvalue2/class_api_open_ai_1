@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.tenco.openai.config.Gpt3ApiCaller;
+import com.tenco.openai.components.Gpt3ApiCaller;
 import com.tenco.openai.dto.response.ChatGptResponse;
 
 @Controller
